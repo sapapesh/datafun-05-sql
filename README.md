@@ -23,6 +23,11 @@
     py -m pip freeze > requirements.txt
 ```
 
+##How to force reinstall of pandas when it says pandas does not exist
+```
+pip install --upgrade --force-reinstall pandas
+```
+
 ##Commit changes and push to github
 ```powershell
     git add . 
